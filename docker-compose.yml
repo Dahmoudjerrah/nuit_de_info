@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  form-galoire:
+    container_name: form-galoire
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - '32248:80'  
