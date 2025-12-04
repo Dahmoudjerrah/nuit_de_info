@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY html/ /usr/share/nginx/html/
+COPY nuit_defi.html /usr/share/nginx/html/index.html
 EXPOSE 80
